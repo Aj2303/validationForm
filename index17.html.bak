@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+<title>login</title>
+<link rel="stylesheet" href="style11.css"/>
+
+</head>
+<body>
+
+<form action autocomplete="off">
+<label class="lb1">Name:</label>
+
+<input  id="naam"type="text"placeholder="Enter your name" naam="Enter your naam"  pattern ="[a-zA-Z]{10}" title="enter your name you write small and capital character "required="required" /autofocus>
+
+<br/>
+<label class="lb1">Email:</label>
+<input id="mail" type="email" placeholder="Enter your Email" pattern="[a-zA-Z0-9]{20}@[a-z]{5}.com" title="you can enter uppercase and lowercase character and numeric value also"/>
+<br/>
+<label class="lb1">password:</label>
+<input  id="pswd" type="password"  pattern="[0-9A-Z]{15}" title="use only three numeric key and and 4 uppercae letters"/>
+<br/>
+<label class="lb1">telephone:</label>
+<input  id="tel"type="tel" pattern="[0-9]" title="enter 10 numeric value for telephone number"/>
+<br/>
+<label class="lb1">Gender:</label>
+<input  id="Male" type="radio" name="gender"/>  Male:
+<input  id="Female" type="radio" name="gender"/>  Female:
+<input  id="Other" type="radio" name="gender"/>  Other:
+
+<br/>
+<label class="lb1">Language:</label>
+<input  id="lang" type="text" placeholder="select language"/>
+<br/>
+<label class="lb1">Zip Code:</label>
+<input id="zpc" type="text"/>
+<br/>
+<label class="lb1">About:</label>
+<input  id="Abt"type="text" placeholder="Write about yourself" />
+<br/>
+<input id="btn" type="submit" placeholder="Register"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+</body>
+</html>
